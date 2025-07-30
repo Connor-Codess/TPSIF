@@ -1,0 +1,343 @@
+/*
+School Theme - Navy Blue, White, and Gold
+Override styles for school colors
+*/
+
+/* Color Variables */
+:root {
+    --navy-blue: #1a365d;
+    --navy-blue-light: #2d5a87;
+    --navy-blue-dark: #0f1f2e;
+    --gold: #d4af37;
+    --gold-light: #f4d03f;
+    --gold-dark: #b8860b;
+    --white: #ffffff;
+    --off-white: #f8f9fa;
+    --light-gray: #e9ecef;
+    --dark-gray: #495057;
+}
+
+/* Header and Navigation */
+.navbar-default {
+    background-color: var(--navy-blue) !important;
+    border-color: var(--navy-blue-dark) !important;
+}
+
+/* School Crest Logo */
+.school-logo {
+    max-height: 65px;
+    width: auto;
+    margin: 0;
+    filter: brightness(1.1) contrast(1.1);
+    margin-left: -200px;
+}
+
+.navbar-brand {
+    padding: 10px 20px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 !important;
+    min-height: 70px;
+}
+
+.navbar-brand img {
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.05);
+}
+
+.navbar-default .navbar-brand {
+    color: var(--gold) !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: var(--white) !important;
+    font-weight: 600;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: var(--gold) !important;
+    background-color: var(--navy-blue-light) !important;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: var(--gold) !important;
+    color: var(--navy-blue) !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: var(--gold) !important;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: var(--gold) !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: var(--gold) !important;
+}
+
+/* Buttons */
+.btn {
+    background: var(--navy-blue) !important;
+    color: var(--white) !important;
+    border-color: var(--navy-blue) !important;
+}
+
+.btn:hover,
+.btn:focus {
+    background: var(--navy-blue-light) !important;
+    color: var(--white) !important;
+    border-color: var(--navy-blue-light) !important;
+}
+
+.btn-theme {
+    background: var(--gold) !important;
+    color: var(--navy-blue) !important;
+    border-color: var(--gold) !important;
+}
+
+.btn-theme:hover {
+    background: var(--gold-light) !important;
+    color: var(--navy-blue) !important;
+    border-color: var(--gold-light) !important;
+}
+
+/* Skill Home Icons */
+.c1 {
+    border: var(--navy-blue) 1px solid !important;
+    background: var(--navy-blue) !important;
+}
+
+.c2 {
+    border: var(--gold) 1px solid !important;
+    background: var(--gold) !important;
+}
+
+.c3 {
+    border: var(--navy-blue-light) 1px solid !important;
+    background: var(--navy-blue-light) !important;
+}
+
+.c4 {
+    border: var(--gold-dark) 1px solid !important;
+    background: var(--gold-dark) !important;
+}
+
+.skill-home .icons {
+    color: var(--white) !important;
+}
+
+/* Testimonial Section */
+.testimonial-solid {
+    background: var(--off-white) !important;
+}
+
+.testi-icon-area .quote {
+    background: var(--navy-blue) !important;
+    color: var(--gold) !important;
+    border: 1px solid var(--navy-blue) !important;
+}
+
+/* Footer */
+footer {
+    background: var(--navy-blue) !important;
+}
+
+footer ul.link-list li a {
+    color: var(--white) !important;
+}
+
+footer ul.link-list li a:hover {
+    color: var(--gold) !important;
+}
+
+footer .widgetheading {
+    color: var(--gold) !important;
+}
+
+#sub-footer {
+    background: var(--navy-blue-dark) !important;
+    color: var(--white) !important;
+}
+
+#sub-footer span {
+    color: var(--gold) !important;
+}
+
+/* Widget Headings */
+.widgetheading {
+    color: var(--navy-blue) !important;
+}
+
+#bottom .widgetheading {
+    border-bottom: var(--gold) 1px solid !important;
+}
+
+aside .widgetheading {
+    border-bottom: var(--gold) 1px solid !important;
+}
+
+/* Box Areas */
+.box-area {
+    border: 1px solid var(--light-gray) !important;
+    background-color: var(--off-white) !important;
+}
+
+.box-area h3 {
+    color: var(--navy-blue) !important;
+}
+
+/* Text Colors */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--navy-blue) !important;
+}
+
+/* Links */
+a {
+    color: var(--navy-blue) !important;
+}
+
+a:hover,
+a:focus {
+    color: var(--gold) !important;
+}
+
+/* Social Network Icons */
+ul.social-network li a {
+    background: var(--navy-blue) !important;
+    color: var(--white) !important;
+}
+
+ul.social-network li a:hover {
+    background: var(--gold) !important;
+    color: var(--navy-blue) !important;
+}
+
+/* Scroll to Top */
+.scrollup {
+    background: var(--navy-blue) !important;
+}
+
+.scrollup i {
+    color: var(--white) !important;
+}
+
+.scrollup:hover {
+    background: var(--gold) !important;
+}
+
+.scrollup:hover i {
+    color: var(--navy-blue) !important;
+}
+
+/* Carousel Indicators */
+.carousel-indicators li {
+    background: var(--navy-blue) !important;
+}
+
+.carousel-indicators li.active {
+    background: var(--gold) !important;
+}
+
+/* Form Elements */
+.form-control:focus {
+    border-color: var(--gold) !important;
+    box-shadow: 0 0 0 0.2rem rgba(212, 175, 55, 0.25) !important;
+}
+
+/* Testimonial Text */
+.testimonial-solid p {
+    color: var(--dark-gray) !important;
+}
+
+/* Call to Action Section */
+section.callaction {
+    background: var(--off-white) !important;
+}
+
+/* Content Section */
+#content {
+    background: var(--white) !important;
+}
+
+/* Bottom Section */
+#bottom {
+    background: var(--off-white) !important;
+}
+
+/* Box Gray */
+.box-gray {
+    background: var(--off-white) !important;
+}
+
+/* Team Member */
+.team-member {
+    background-color: var(--off-white) !important;
+}
+
+/* Pricing Elements */
+.pricing-box-item.activeItem .pricing-heading {
+    background: var(--navy-blue) !important;
+    color: var(--white) !important;
+}
+
+.pricing-box-item.activeItem .pricing-heading h3 {
+    color: var(--gold) !important;
+}
+
+.pricing-box-item .icon .price-circled {
+    background: var(--navy-blue) !important;
+    color: var(--white) !important;
+}
+
+/* Breadcrumb */
+.breadcrumb > li + li:before {
+    color: var(--navy-blue) !important;
+}
+
+.breadcrumb > .active {
+    color: var(--gold) !important;
+}
+
+/* Portfolio Filters */
+.work-nav #filters li a.selected {
+    background: var(--navy-blue) !important;
+    color: var(--white) !important;
+}
+
+.work-nav #filters li a:hover {
+    background: var(--gold) !important;
+    color: var(--navy-blue) !important;
+}
+
+/* Progress Bars */
+.progress-bar {
+    background-color: var(--navy-blue) !important;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 4px solid var(--gold) !important;
+}
+
+/* Recent Posts */
+.recent-post h5 a:hover {
+    color: var(--gold) !important;
+}
+
+/* Copyright */
+.copyright a {
+    color: var(--gold) !important;
+}
+
+.copyright a:hover {
+    color: var(--navy-blue) !important;
+} 
