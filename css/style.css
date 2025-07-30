@@ -1815,7 +1815,7 @@ padding:50px 0
 /* What We Do Section Styling - Creates the professional three-column layout */
 .what-we-do {
     padding: 60px 0; /* Adds 60px spacing above and below the entire section for breathing room */
-    background-color: #fff; /* Sets white background for clean appearance */
+    background-color: #ffffff; /* Sets white background for clean appearance */
 }
 
 /* Container for the main title and separator line */
@@ -1836,7 +1836,7 @@ padding:50px 0
 /* Creates the thin horizontal line under the main "What We Do" title */
 .title-separator {
     width: 100px; /* Sets the line width to 100px (longer than column separators) */
-    border: 1px solid #ddd; /* Creates a thin light gray line */
+    border: 1px solid #ffd700; /* Creates a subtle gold line accent */
     margin: 0 auto; /* Centers the line horizontally under the title */
 }
 
@@ -1850,14 +1850,14 @@ padding:50px 0
 /* Creates the thin horizontal lines above each service column title */
 .box-separator {
     width: 50px; /* Sets line width to 50px (shorter than main title separator) */
-    border: 1px solid #ddd; /* Creates thin light gray line */
+    border: 1px solid #1e3c72; /* Creates subtle blue line accent */
     margin: 0 auto 20px; /* Centers line horizontally and adds 20px space below it */
 }
 
 /* Alternative class for service separators (in case you use different class names) */
 .service-separator {
     width: 50px; /* Sets line width to 50px for consistency */
-    border: 1px solid #ddd; /* Creates thin light gray line */
+    border: 1px solid #1e3c72; /* Creates subtle blue line accent */
     margin: 0 auto 20px; /* Centers line and adds space below */
 }
 
@@ -1881,9 +1881,9 @@ padding:50px 0
 
 /* Styling for the buttons at the bottom of each service column */
 .service-btn {
-    background: transparent; /* Makes button background transparent (shows white background) */
-    border: 1px solid #333; /* Creates thin black border around each button */
-    color: #333; /* Sets button text color to dark gray */
+    background: transparent; /* Makes button background transparent */
+    border: 1px solid #1e3c72; /* Creates subtle blue border */
+    color: #1e3c72; /* Sets button text color to blue */
     padding: 10px 25px; /* Adds 10px top/bottom and 25px left/right spacing inside button */
     font-family: 'Arial', sans-serif; /* Uses clean sans-serif font for button text */
     font-size: 0.9rem; /* Sets button text size (14.4px) for good proportion */
@@ -1893,6 +1893,6 @@ padding:50px 0
 
 /* Hover effect for buttons - changes appearance when user hovers over them */
 .service-btn:hover {
-    background: #333; /* Changes button background to dark gray on hover */
+    background: #1e3c72; /* Changes button background to blue on hover */
     color: #fff; /* Changes button text color to white on hover for contrast */
 }
